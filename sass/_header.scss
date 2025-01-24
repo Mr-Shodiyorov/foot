@@ -1,0 +1,38 @@
+header{
+    padding: 42px 0;
+}
+header::before{
+    content: "";
+    width: 139px;
+    height: 149px;
+    position: absolute;
+    top: 92px;
+    left: calc(50% - 500px);
+    background-image: url(/header\ chiziq.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.header__link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header__dowload_link{
+    color: #0D0D0D;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: #F65F5F;
+    text-decoration: none;
+}

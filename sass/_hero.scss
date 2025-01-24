@@ -1,0 +1,128 @@
+.play__button {
+    max-width: 52px;
+    border-radius: 50%;
+}
+
+.hero_trust {
+    max-width: 139px;
+    border-radius: 100px;
+    margin-bottom: 11px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__title {
+    font-size: 58px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 43.5px;
+}
+
+
+.hero__title::before {
+    content: "";
+    width: 84px;
+    height: 74px;
+    position: absolute;
+    top: 160px;
+    left: calc(50% - 180px);
+    background-image: url(/pomidor.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero__title::after {
+    content: "";
+    width: 263px;
+    height: 8px;
+    position: absolute;
+    top: 290px;
+    left: calc(50% - 450px);
+    background-image: url(/Decore.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero__content {
+    max-width: 530px;
+}
+
+.hero__span {
+    color: #F54748;
+}
+
+.hero__span-2 {
+    color: #FDC55E;
+}
+
+.hero__text {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 27px;
+}
+
+.hero__input-div {
+    padding: 8px 9px 5px 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 471px;
+    border-radius: 100px;
+    border: 0.5px solid #FFFFFF;
+    position: relative;
+    background-color: #0D0D0D;
+    margin-bottom: 44px;
+}
+
+.hero_input {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.hero__input-div::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url(/input\ before\ search.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 17px;
+}
+
+.hero_play-div {
+    display: flex;
+    align-items: center;
+}
+
+.hero_links {
+    display: flex;
+    gap: 31px;
+}
+
+.hero__watch {
+    text-decoration: none;
+    color: white;
+    margin-left: 21px;
+}
+.hero_pizza-women-div::before {
+    content: "";
+    width: 718px;
+    height: 312px;
+    position: absolute;
+    top:0;
+    right: -600px;
+    background-image: url(/hero\ decor\ chiziq.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
